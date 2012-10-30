@@ -1,4 +1,4 @@
--- Renombrar campos a versión antigua de quest_template
+-- Naming
 ALTER TABLE `quest_template`
    CHANGE `Id` `entry` mediumint(8) UNSIGNED NOT NULL default '0',
    CHANGE `Level` `QuestLevel` smallint(3) NOT NULL DEFAULT '1',
@@ -25,6 +25,8 @@ ALTER TABLE `quest_template`
    CHANGE `RequiredItemId4` `ReqItemId4` mediumint(8) UNSIGNED default '0' NOT NULL,
    CHANGE `RequiredItemId5` `ReqItemId5` mediumint(8) UNSIGNED default '0' NOT NULL,
    CHANGE `RequiredItemId6` `ReqItemId6` mediumint(8) UNSIGNED default '0' NOT NULL,
+
+-- Acabat
    CHANGE `RequiredItemCount1` `ReqItemCount1` smallint(5) UNSIGNED default '0' NOT NULL,
    CHANGE `RequiredItemCount2` `ReqItemCount2` smallint(5) UNSIGNED default '0' NOT NULL,
    CHANGE `RequiredItemCount3` `ReqItemCount3` smallint(5) UNSIGNED default '0' NOT NULL,
