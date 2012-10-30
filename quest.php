@@ -37,10 +37,10 @@ if(!$quest = load_cache(QUEST_PAGE, $cache_key))
 	while($tmp)
 	{
 		$tmp = $DB->selectRow('
-			SELECT q.Id, q.Title
+			SELECT q.entry, q.Title
 				{, l.Title_loc?d as Title_loc}
 			FROM quest_template q
-				{LEFT JOIN (locales_quest l) ON l.entry=q.Id AND ?d}
+				{LEFT JOIN (locales_quest l) ON l.entry=q.entry AND ?d}
 			WHERE q.NextQuestInChain=?d
 			LIMIT 1
 			',
@@ -59,11 +59,11 @@ if(!$quest = load_cache(QUEST_PAGE, $cache_key))
 	while($tmp)
 	{
 		$tmp = $DB->selectRow('
-			SELECT q.Id, q.Title, q.NextQuestInChain
+			SELECT q.entry, q.Title, q.NextQuestInChain
 				{, l.Title_loc?d as Title_loc}
 			FROM quest_template q
-				{LEFT JOIN (locales_quest l) ON l.entry=q.Id AND ?}
-			WHERE q.Id=?d
+				{LEFT JOIN (locales_quest l) ON l.entry=q.entry AND ?}
+			WHERE q.entry=?d
 			LIMIT 1
 			',
 			($_SESSION['locale']>0)? $_SESSION['locale']: DBSIMPLE_SKIP,
@@ -87,13 +87,13 @@ if(!$quest = load_cache(QUEST_PAGE, $cache_key))
 
 	// Квесты, которые необходимо выполнить, что бы получить этот квест
 	if(!$quest['req'] = $DB->select('
-				SELECT q.Id, q.Title, q.NextQuestInChain
+				SELECT q.entry, q.Title, q.NextQuestInChain
 					{, l.Title_loc?d as Title_loc}
 				FROM quest_template q
-					{LEFT JOIN (locales_quest l) ON l.entry=q.Id AND ?}
+					{LEFT JOIN (locales_quest l) ON l.entry=q.entry AND ?}
 				WHERE
 					(q.NextQuestID=?d AND q.ExclusiveGroup<0)
-					OR (q.Id=?d AND q.NextQuestInChain<>?d)
+					OR (q.entry=?d AND q.NextQuestInChain<>?d)
 				LIMIT 20',
 				($_SESSION['locale']>0)? $_SESSION['locale']: DBSIMPLE_SKIP, ($_SESSION['locale']>0)? 1: DBSIMPLE_SKIP,
 				$quest['entry'], $quest['PrevQuestID'], $quest['entry']
@@ -105,13 +105,13 @@ if(!$quest = load_cache(QUEST_PAGE, $cache_key))
 
 	// Квесты, которые становятся доступными, только после того как выполнен этот квест (необязательно только он)
 	if(!$quest['open'] = $DB->select('
-				SELECT q.Id, q.Title
+				SELECT q.entry, q.Title
 					{, l.Title_loc?d as Title_loc}
 				FROM quest_template q
-					{LEFT JOIN (locales_quest l) ON l.entry=q.Id AND ?}
+					{LEFT JOIN (locales_quest l) ON l.entry=q.entry AND ?}
 				WHERE
-					(q.PrevQuestID=?d AND q.Id<>?d)
-					OR q.Id=?d
+					(q.PrevQuestID=?d AND q.entry<>?d)
+					OR q.entry=?d
 				LIMIT 20',
 				($_SESSION['locale']>0)? $_SESSION['locale']: DBSIMPLE_SKIP, ($_SESSION['locale']>0)? 1: DBSIMPLE_SKIP,
 				$quest['entry'], $quest['NextQuestInChain'], $quest['NextQuestID']
@@ -124,12 +124,12 @@ if(!$quest = load_cache(QUEST_PAGE, $cache_key))
 	// Квесты, которые становятся недоступными после выполнения этого квеста
 	if($quest['ExclusiveGroup']>0)
 		if(!$quest['closes'] = $DB->select('
-				SELECT q.Id, q.Title
+				SELECT q.entry, q.Title
 					{, l.Title_loc?d as Title_loc}
 				FROM quest_template q
-					{LEFT JOIN (locales_quest l) ON l.entry=q.Id AND ?}
+					{LEFT JOIN (locales_quest l) ON l.entry=q.entry AND ?}
 				WHERE
-					q.ExclusiveGroup=?d AND q.Id<>?d
+					q.ExclusiveGroup=?d AND q.entry<>?d
 				LIMIT 20
 				',
 				($_SESSION['locale']>0)? $_SESSION['locale']: DBSIMPLE_SKIP, ($_SESSION['locale']>0)? 1: DBSIMPLE_SKIP,
@@ -142,10 +142,10 @@ if(!$quest = load_cache(QUEST_PAGE, $cache_key))
 
 	// Требует выполнения одного из квестов, на выбор:
 	if(!$quest['reqone'] = $DB->select('
-				SELECT q.Id, q.Title
+				SELECT q.entry, q.Title
 					{, l.Title_loc?d as Title_loc}
 				FROM quest_template q
-					{LEFT JOIN (locales_quest l) ON l.entry=q.Id AND ?}
+					{LEFT JOIN (locales_quest l) ON l.entry=q.entry AND ?}
 				WHERE
 					q.ExclusiveGroup>0 AND q.NextQuestId=?d
 				LIMIT 20
@@ -160,10 +160,10 @@ if(!$quest = load_cache(QUEST_PAGE, $cache_key))
 
 	// Квесты, которые доступны, только во время выполнения этого квеста
 	if(!$quest['enables'] = $DB->select('
-				SELECT q.Id, q.Title
+				SELECT q.entry, q.Title
 					{, l.Title_loc?d as Title_loc}
 				FROM quest_template q
-					{LEFT JOIN (locales_quest l) ON l.entry=q.Id AND ?}
+					{LEFT JOIN (locales_quest l) ON l.entry=q.entry AND ?}
 				WHERE q.PrevQuestID=?d
 				LIMIT 20
 				',
@@ -178,11 +178,11 @@ if(!$quest = load_cache(QUEST_PAGE, $cache_key))
 	// Квесты, во время выполнения которых доступен этот квест
 	if($quest['PrevQuestID']<0)
 		if(!$quest['enabledby'] = $DB->select('
-				SELECT q.Id, q.Title
+				SELECT q.entry, q.Title
 					{, l.Title_loc?d as Title_loc}
 				FROM quest_template q
-					{LEFT JOIN (locales_quest l) ON l.entry=q.Id AND ?}
-				WHERE q.Id=?d
+					{LEFT JOIN (locales_quest l) ON l.entry=q.entry AND ?}
+				WHERE q.entry=?d
 				LIMIT 20
 				',
 				($_SESSION['locale']>0)? $_SESSION['locale']: DBSIMPLE_SKIP, ($_SESSION['locale']>0)? 1: DBSIMPLE_SKIP,

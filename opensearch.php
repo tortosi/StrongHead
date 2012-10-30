@@ -71,11 +71,11 @@ foreach($rows as $i => $row)
 
 // Ищем квесты:
 $rows = $DB->select('
-	SELECT q.Id, ?# as Title, q.RequiredRaces
+	SELECT q.entry, ?# as Title, q.RequiredRaces
 	FROM quest_template q {, ?# l}
 	WHERE
 		(?# LIKE ?)
-		{AND (q.Id=l.?#)}
+		{AND (q.entry=l.?#)}
 	ORDER BY ?#
 	LIMIT 3
 	',

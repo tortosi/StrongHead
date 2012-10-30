@@ -88,14 +88,14 @@ define('QUEST_DATAFLAG_PROPS',		32);
 define('QUEST_DATAFLAG_LISTINGS', (QUEST_DATAFLAG_MINIMUM | QUEST_DATAFLAG_REWARDS | QUEST_DATAFLAG_PROPS));
 define('QUEST_DATAFLAG_AJAXTOOLTIP', (QUEST_DATAFLAG_LISTINGS | QUEST_DATAFLAG_SERIES | QUEST_DATAFLAG_STRINGS | QUEST_DATAFLAG_LOCALE));
 
-$questcols[QUEST_DATAFLAG_MINIMUM]    = array('Id', 'Title');
-$questcols[QUEST_DATAFLAG_STRINGS]    = array('Objectives', 'Details', 'RequestItemsText', 'OfferRewardText', 'EndText', 'ObjectiveText1', 'ObjectiveText2', 'ObjectiveText3', 'ObjectiveText4');
-$questcols[QUEST_DATAFLAG_REWARDS]    = array('RewardChoiceItemId1', 'RewardChoiceItemId2', 'RewardChoiceItemId3', 'RewardChoiceItemId4', 'RewardChoiceItemId5', 'RewardChoiceItemId6', 'RewardChoiceItemCount1', 'RewardChoiceItemCount2', 'RewardChoiceItemCount3', 'RewardChoiceItemCount4', 'RewardChoiceItemCount5', 'RewardChoiceItemCount6', 'RewardItemId1', 'RewardItemId2', 'RewardItemId3', 'RewardItemId4', 'RewardItemCount1', 'RewardItemCount2', 'RewardItemCount3', 'RewardItemCount4', 'RewardMoneyMaxLevel', 'RewardOrRequiredMoney', 'RequiredSpellCast1', 'RequiredSpellCast2', 'RequiredSpellCast3', 'RequiredSpellCast4', 'RequiredNpcOrGo1', 'RequiredNpcOrGo2', 'RequiredNpcOrGo3', 'RequiredNpcOrGo4', 'RequiredItemId1', 'RequiredItemId2', 'RequiredItemId3', 'RequiredItemId4', 'RequiredItemCount1', 'RequiredItemCount2', 'RequiredItemCount3', 'RequiredItemCount4', 'SuggestedPlayers', 'RequiredNpcOrGoCount1', 'RequiredNpcOrGoCount2', 'RequiredNpcOrGoCount3', 'RequiredNpcOrGoCount4', 'RewardSpell', 'RewardSpellCast', 'RewardFactionValueId1', 'RewardFactionValueId2', 'RewardFactionValueId3', 'RewardFactionValueId4', 'RewardFactionValueId5', 'RewardFactionId1', 'RewardFactionId2', 'RewardFactionId3', 'RewardFactionId4', 'RewardFactionId5', 'RewardFactionValueId1', 'RewardFactionValueId2', 'RewardFactionValueId3', 'RewardFactionValueId4', 'RewardFactionValueId5', 'SourceItemId', 'SourceItemCount', 'SourceSpellId', 'RequiredFactionId1', 'RequiredFactionValue1', 'RequiredMinRepFaction', 'RequiredMinRepValue', 'RequiredMaxRepFaction', 'RequiredMaxRepValue', 'RequiredPlayerKills', 'RewardTalents', 'RequiredSourceItemId1', 'RequiredSourceItemCount1', 'RequiredSourceItemId2', 'RequiredSourceItemCount2', 'RequiredSourceItemId3', 'RequiredSourceItemCount3', 'RequiredSourceItemId4', 'RequiredSourceItemCount4', 'RewardHonor', 'RewardMailTemplateId', 'RewardMailDelay', 'PointX', 'PointY', 'StartScript', 'CompleteScript');
-$questcols[QUEST_DATAFLAG_PROPS]    = array('Type', 'RequiredClasses', 'ZoneOrSort', 'Flags', 'Level', 'MinLevel', 'RequiredRaces', 'RequiredSkillPoints', 'RequiredSkillId', 'LimitTime', 'SpecialFlags', 'RewardTitleId');
-$questcols[QUEST_DATAFLAG_SERIES]    = array('PrevQuestId', 'NextQuestIdChain', 'ExclusiveGroup', 'NextQuestId');
+$questcols[QUEST_DATAFLAG_MINIMUM]	= array('entry', 'Title');
+$questcols[QUEST_DATAFLAG_STRINGS]	= array('Objectives', 'Details', 'RequestItemsText', 'OfferRewardText', 'EndText', 'ObjectiveText1', 'ObjectiveText2', 'ObjectiveText3', 'ObjectiveText4');
+$questcols[QUEST_DATAFLAG_REWARDS]	= array('RewChoiceItemId1', 'RewChoiceItemId2', 'RewChoiceItemId3', 'RewChoiceItemId4', 'RewChoiceItemId5', 'RewChoiceItemId6', 'RewChoiceItemCount1', 'RewChoiceItemCount2', 'RewChoiceItemCount3', 'RewChoiceItemCount4', 'RewChoiceItemCount5', 'RewChoiceItemCount6', 'RewItemId1', 'RewItemId2', 'RewItemId3', 'RewItemId4', 'RewItemCount1', 'RewItemCount2', 'RewItemCount3', 'RewItemCount4', 'RewMoneyMaxLevel', 'RewOrReqMoney', 'ReqSpellCast1', 'ReqSpellCast2', 'ReqSpellCast3', 'ReqSpellCast4', 'ReqCreatureOrGOId1', 'ReqCreatureOrGOId2', 'ReqCreatureOrGOId3', 'ReqCreatureOrGOId4', 'ReqItemId1', 'ReqItemId2', 'ReqItemId3', 'ReqItemId4', 'ReqItemCount1', 'ReqItemCount2', 'ReqItemCount3', 'ReqItemCount4', 'SuggestedPlayers', 'ReqCreatureOrGOCount1', 'ReqCreatureOrGOCount2', 'ReqCreatureOrGOCount3', 'ReqCreatureOrGOCount4', 'RewSpell', 'RewSpellCast', 'RewRepFaction1', 'RewRepFaction2', 'RewRepFaction3', 'RewRepFaction4', 'RewRepFaction5', 'RewRepValueId1', 'RewRepValueId2', 'RewRepValueId3', 'RewRepValueId4', 'RewRepValueId5', 'RewRepValue1', 'RewRepValue2', 'RewRepValue3', 'RewRepValue4', 'RewRepValue5', 'SrcItemId', 'SrcItemCount', 'SrcSpell', 'RepObjectiveFaction', 'RepObjectiveValue', 'RequiredMinRepFaction', 'RequiredMinRepValue', 'RequiredMaxRepFaction', 'RequiredMaxRepValue', 'PlayersSlain', 'BonusTalents', 'ReqSourceId1', 'ReqSourceCount1', 'ReqSourceId2', 'ReqSourceCount2', 'ReqSourceId3', 'ReqSourceCount3', 'ReqSourceId4', 'ReqSourceCount4', 'RewHonorAddition', 'RewMailTemplateId', 'RewMailDelaySecs', 'PointX', 'PointY', 'StartScript', 'CompleteScript');
+$questcols[QUEST_DATAFLAG_PROPS]	= array('Type', 'ZoneOrSort', 'QuestFlags', 'QuestLevel', 'MinLevel', 'RequiredRaces', 'RequiredSkillValue', 'SkillOrClassMask', 'LimitTime', 'SpecialFlags', 'CharTitleId');
+$questcols[QUEST_DATAFLAG_SERIES]	= array('PrevQuestID', 'NextQuestInChain', 'ExclusiveGroup', 'NextQuestID');
 
-$quest_cols[2] = array('Id', 'Title', 'Level', 'MinLevel', 'RequiredRaces', 'RewardChoiceItemId1', 'RewardChoiceItemId2', 'RewardChoiceItemId3', 'RewardChoiceItemId4', 'RewardChoiceItemId5', 'RewardChoiceItemId6', 'RewardChoiceItemCount1', 'RewardChoiceItemCount2', 'RewardChoiceItemCount3', 'RewardChoiceItemCount4', 'RewardChoiceItemCount5', 'RewardChoiceItemCount6', 'RewardItemId1', 'RewardItemId2', 'RewardItemId3', 'RewardItemId4', 'RewardItemCount1', 'RewardItemCount2', 'RewardItemCount3', 'RewardItemCount4', 'RewardMoneyMaxLevel', 'RewardOrRequiredMoney', 'Type', 'ZoneOrSort', 'Flags');
-$quest_cols[3] = array('Title', 'Level', 'MinLevel', 'RequiredRaces', 'RewardChoiceItemId1', 'RewardChoiceItemId2', 'RewardChoiceItemId3', 'RewardChoiceItemId4', 'RewardChoiceItemId5', 'RewardChoiceItemId6', 'RewardChoiceItemCount1', 'RewardChoiceItemCount2', 'RewardChoiceItemCount3', 'RewardChoiceItemCount4', 'RewardChoiceItemCount5', 'RewardChoiceItemCount6', 'RewardItemId1', 'RewardItemId2', 'RewardItemId3', 'RewardItemId4', 'RewardItemCount1', 'RewardItemCount2', 'RewardItemCount3', 'RewardItemCount4', 'RewardMoneyMaxLevel', 'RewardOrRequiredMoney', 'Type', 'RequiredClasses', 'ZoneOrSort', 'Flags', 'RewardFactionValueId1', 'RewardFactionValueId2', 'RewardFactionValueId3', 'RewardFactionValueId4', 'RewardFactionValueId5', 'RewardFactionId1', 'RewardFactionId2', 'RewardFactionId3', 'RewardFactionId4', 'RewardFactionId5', 'RewardFactionValueId1', 'RewardFactionValueId2', 'RewardFactionValueId3', 'RewardFactionValueId4', 'RewardFactionValueId5', 'Objectives', 'Details', 'RequestItemsText', 'OfferRewardText', 'RequiredNpcOrGo1', 'RequiredNpcOrGo2', 'RequiredNpcOrGo3', 'RequiredNpcOrGo4', 'RequiredItemId1', 'RequiredItemId2', 'RequiredItemId3', 'RequiredItemId4', 'RequiredItemCount1', 'RequiredItemCount2', 'RequiredItemCount3', 'RequiredItemCount4', 'SourceItemId', 'RequiredNpcOrGoCount1', 'RequiredNpcOrGoCount2', 'RequiredNpcOrGoCount3', 'RequiredNpcOrGoCount4', 'ObjectiveText1', 'ObjectiveText2', 'ObjectiveText3', 'ObjectiveText4', 'EndText', 'PrevQuestID', 'NextQuestIdChain', 'ExclusiveGroup', 'NextQuestID', 'RewSpellCast', 'RewSpell', 'RequiredSkillPoints', 'RequiredFactionId1', 'RequiredFactionValue1', 'SuggestedPlayers', 'LimitTime', 'Flags', 'SpecialFlags', 'RewardTitleId', 'RequiredMinRepFaction', 'RequiredMinRepValue', 'RequiredMaxRepFaction', 'RequiredMaxRepValue', 'SourceSpellId', 'RequiredSkillId', 'RequiredSpellCast1', 'RequiredSpellCast2', 'RequiredSpellCast3', 'RequiredSpellCast4');
+$quest_cols[2] = array('entry', 'Title', 'QuestLevel', 'MinLevel', 'RequiredRaces', 'RewChoiceItemId1', 'RewChoiceItemId2', 'RewChoiceItemId3', 'RewChoiceItemId4', 'RewChoiceItemId5', 'RewChoiceItemId6', 'RewChoiceItemCount1', 'RewChoiceItemCount2', 'RewChoiceItemCount3', 'RewChoiceItemCount4', 'RewChoiceItemCount5', 'RewChoiceItemCount6', 'RewItemId1', 'RewItemId2', 'RewItemId3', 'RewItemId4', 'RewItemCount1', 'RewItemCount2', 'RewItemCount3', 'RewItemCount4', 'RewMoneyMaxLevel', 'RewOrReqMoney', 'Type', 'ZoneOrSort', 'QuestFlags');
+$quest_cols[3] = array('Title', 'QuestLevel', 'MinLevel', 'RequiredRaces', 'RewChoiceItemId1', 'RewChoiceItemId2', 'RewChoiceItemId3', 'RewChoiceItemId4', 'RewChoiceItemId5', 'RewChoiceItemId6', 'RewChoiceItemCount1', 'RewChoiceItemCount2', 'RewChoiceItemCount3', 'RewChoiceItemCount4', 'RewChoiceItemCount5', 'RewChoiceItemCount6', 'RewItemId1', 'RewItemId2', 'RewItemId3', 'RewItemId4', 'RewItemCount1', 'RewItemCount2', 'RewItemCount3', 'RewItemCount4', 'RewMoneyMaxLevel', 'RewOrReqMoney', 'Type', 'ZoneOrSort', 'QuestFlags', 'RewRepFaction1', 'RewRepFaction2', 'RewRepFaction3', 'RewRepFaction4', 'RewRepFaction5', 'RewRepValueId1', 'RewRepValueId2', 'RewRepValueId3', 'RewRepValueId4', 'RewRepValueId5', 'RewRepValue1', 'RewRepValue2', 'RewRepValue3', 'RewRepValue4', 'RewRepValue5', 'Objectives', 'Details', 'RequestItemsText', 'OfferRewardText', 'ReqCreatureOrGOId1', 'ReqCreatureOrGOId2', 'ReqCreatureOrGOId3', 'ReqCreatureOrGOId4', 'ReqItemId1', 'ReqItemId2', 'ReqItemId3', 'ReqItemId4', 'ReqItemCount1', 'ReqItemCount2', 'ReqItemCount3', 'ReqItemCount4', 'SrcItemId', 'ReqCreatureOrGOCount1', 'ReqCreatureOrGOCount2', 'ReqCreatureOrGOCount3', 'ReqCreatureOrGOCount4', 'ObjectiveText1', 'ObjectiveText2', 'ObjectiveText3', 'ObjectiveText4', 'EndText', 'PrevQuestID', 'NextQuestInChain', 'ExclusiveGroup', 'NextQuestID', 'RewSpellCast', 'RewSpell', 'RequiredSkillValue', 'RepObjectiveFaction', 'RepObjectiveValue', 'SuggestedPlayers', 'LimitTime', 'QuestFlags', 'SpecialFlags', 'CharTitleId', 'RequiredMinRepFaction', 'RequiredMinRepValue', 'RequiredMaxRepFaction', 'RequiredMaxRepValue', 'SrcSpell', 'SkillOrClassMask', 'ReqSpellCast1', 'ReqSpellCast2', 'ReqSpellCast3', 'ReqSpellCast4');
 
 function QuestReplaceStr($str)
 {
@@ -294,31 +294,31 @@ function GetQuestTooltip($row)
 
 //	$x .= '<br>';
 
-    if((($row['RequiredNpcOrGo1']) and ($row['RequiredNpcOrGoCount1'])) or
-            (($row['RequiredNpcOrGo2']) and ($row['RequiredNpcOrGoCount2'])) or
-            (($row['RequiredNpcOrGo3']) and ($row['RequiredNpcOrGoCount3'])) or
-            (($row['RequiredNpcOrGo4']) and ($row['RequiredNpcOrGoCount4'])) or
-            (($row['RequiredItemId1']) and ($row['RequiredItemCount1'])) or
-            (($row['RequiredItemId2']) and ($row['RequiredItemCount2'])) or
-            (($row['RequiredItemId3']) and ($row['RequiredItemCount3'])) or
-            (($row['RequiredItemId4']) and ($row['RequiredItemCount4'])))
-    {
-        $x .= '<tr><td><br>';
-        $x .= '<div class="q">'.LOCALE_REQUIREMENTS.':<br></div>';
-        for($j=1;$j<=4;$j++)
-            if($row['RequiredNpcOrGo'.$j] and $row['RequiredNpcOrGoCount'.$j])
-                $x .= '- '
-                    .(
-                        (!empty($row['ObjectiveText'][$j]))?
-                        $row['ObjectiveText'][$j]:
-                        GetQuestReq($row['RequiredNpcOrGo'.$j], $row['RequiredNpcOrGoCount'.$j], 1)
-                    ).'<br>';
-        for($j=1;$j<=4;$j++)
-            if($row['RequiredItemId'.$j] and $row['RequiredItemCount'.$j])
-                $x .= '- '.GetQuestReq($row['RequiredItemId'.$j], $row['RequiredItemCount'.$j], 2).'<br>';
-        $x .= '</td></tr>';
-    }
-    $x .= '</table>';
+	if((($row['ReqCreatureOrGOId1']) and ($row['ReqCreatureOrGOCount1'])) or
+			(($row['ReqCreatureOrGOId2']) and ($row['ReqCreatureOrGOCount2'])) or
+			(($row['ReqCreatureOrGOId3']) and ($row['ReqCreatureOrGOCount3'])) or
+			(($row['ReqCreatureOrGOId4']) and ($row['ReqCreatureOrGOCount4'])) or
+			(($row['ReqItemId1']) and ($row['ReqItemCount1'])) or
+			(($row['ReqItemId2']) and ($row['ReqItemCount2'])) or
+			(($row['ReqItemId3']) and ($row['ReqItemCount3'])) or
+			(($row['ReqItemId4']) and ($row['ReqItemCount4'])))
+	{
+		$x .= '<tr><td><br>';
+		$x .= '<div class="q">'.LOCALE_REQUIREMENTS.':<br></div>';
+		for($j=1;$j<=4;$j++)
+			if($row['ReqCreatureOrGOId'.$j] and $row['ReqCreatureOrGOCount'.$j])
+				$x .= '- '
+					.(
+						(!empty($row['ObjectiveText'][$j]))?
+						$row['ObjectiveText'][$j]:
+						GetQuestReq($row['ReqCreatureOrGOId'.$j], $row['ReqCreatureOrGOCount'.$j], 1)
+					).'<br>';
+		for($j=1;$j<=4;$j++)
+			if($row['ReqItemId'.$j] and $row['ReqItemCount'.$j])
+				$x .= '- '.GetQuestReq($row['ReqItemId'.$j], $row['ReqItemCount'.$j], 2).'<br>';
+		$x .= '</td></tr>';
+	}
+	$x .= '</table>';
 
 	return $x;
 }

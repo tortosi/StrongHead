@@ -309,7 +309,7 @@ if(!$npc = load_cache(NPC_PAGE, $cache_key))
 			FROM creature_questrelation c, quest_template q
 			WHERE
 				c.id=?
-				AND q.Id=c.quest
+				AND q.entry=c.quest
 			',
 			$quest_cols[2],
 			$id
@@ -341,7 +341,7 @@ if(!$npc = load_cache(NPC_PAGE, $cache_key))
 			FROM creature_involvedrelation c, quest_template q
 			WHERE
 				c.id=?
-				AND q.Id=c.quest
+				AND q.entry=c.quest
 			',
 			$quest_cols[2],
 			$id

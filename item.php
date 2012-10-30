@@ -8,7 +8,7 @@ require_once('includes/allnpcs.php');
 require_once('includes/allobjects.php');
 require_once('includes/allcomments.php');
 require_once('includes/allachievements.php');
-require_once('includes/allscreenshots.php');
+
 // Загружаем файл перевода для smarty
 $smarty->config_load($conf_file, 'item');
 
@@ -162,12 +162,12 @@ if(!$item = load_cache(ITEM_PAGE, $cache_key))
 	$rows_qr = $DB->select('
 			SELECT q.?# {, l.Title_loc?d AS Title_loc}
 			FROM quest_template q
-			{ LEFT JOIN (locales_quest l) ON l.entry=q.Id AND ? }
+			{ LEFT JOIN (locales_quest l) ON l.entry=q.entry AND ? }
 			WHERE
-				RequiredItemId1=?d
-				OR RequiredItemId2=?d
-				OR RequiredItemId3=?d
-				OR RequiredItemId4=?d
+				ReqItemId1=?d
+				OR ReqItemId2=?d
+				OR ReqItemId3=?d
+				OR ReqItemId4=?d
 		',
 		$quest_cols[2],
 		$_SESSION['locale'] > 0 ? $_SESSION['locale'] : DBSIMPLE_SKIP,
@@ -186,8 +186,8 @@ if(!$item = load_cache(ITEM_PAGE, $cache_key))
 	$rows_qp = $DB->select('
 			SELECT q.?# {, l.Title_loc?d AS Title_loc}
 			FROM quest_template q
-			{ LEFT JOIN (locales_quest l) ON l.entry=q.Id AND ? }
-			WHERE SourceItemId=?d
+			{ LEFT JOIN (locales_quest l) ON l.entry=q.entry AND ? }
+			WHERE SrcItemId=?d
 		',
 		$quest_cols[2],
 		$_SESSION['locale'] > 0 ? $_SESSION['locale'] : DBSIMPLE_SKIP,
@@ -206,18 +206,18 @@ if(!$item = load_cache(ITEM_PAGE, $cache_key))
 	$rows_qrw = $DB->select('
 			SELECT q.?# {, l.Title_loc?d AS Title_loc}
 			FROM quest_template q 
-			{ LEFT JOIN (locales_quest l) ON l.entry=q.Id AND ? }
+			{ LEFT JOIN (locales_quest l) ON l.entry=q.entry AND ? }
 			WHERE
-				RewardItemId1=?d
-				OR RewardItemId2=?d
-				OR RewardItemId3=?d
-				OR RewardItemId4=?d
-				OR RewardChoiceItemId1=?d
-				OR RewardChoiceItemId2=?d
-				OR RewardChoiceItemId3=?d
-				OR RewardChoiceItemId4=?d
-				OR RewardChoiceItemId5=?d
-				OR RewardChoiceItemId6=?d
+				RewItemId1=?d
+				OR RewItemId2=?d
+				OR RewItemId3=?d
+				OR RewItemId4=?d
+				OR RewChoiceItemId1=?d
+				OR RewChoiceItemId2=?d
+				OR RewChoiceItemId3=?d
+				OR RewChoiceItemId4=?d
+				OR RewChoiceItemId5=?d
+				OR RewChoiceItemId6=?d
 		',
 		$quest_cols[2],
 		($_SESSION['locale']>0)? $_SESSION['locale']: DBSIMPLE_SKIP,

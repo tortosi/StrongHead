@@ -204,7 +204,7 @@
 				</table>
 
 				<div class="text">
-					<a href="http://www.wowhead.com/?{$query}" class="button-red"><em><b><i>Wowhead</i></b><span>Wowhead</span></em></a>
+					<a href="http://es.wowhead.com/?{$query}" target="_blank" class="button-red"><em><b><i>Wowhead</i></b><span>Wowhead</span></em></a>
 					<h1>{$quest.Title}</h1>
 
 					{if isset($quest.RequiredMinRep) or isset($quest.RequiredMaxRep)}
