@@ -1,0 +1,5 @@
+1312122258 12
+a:16:{s:5:"entry";s:5:"48734";s:4:"name";s:21:"Bombardeo destructivo";s:5:"stack";s:1:"0";s:5:"level";s:1:"0";s:5:"range";s:2:"20";s:9:"rangename";s:12:"Twenty yards";s:8:"casttime";s:13:"0.5  segundos";s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:220:"<table><tr><td><b>Bombardeo destructivo</b><br />20 yd range<br />0.5 sec cast</td></tr></table><table><tr><td><span class="q">Inflige 4200 para 9801 p. de daño de Fuego a los enemigos cercanos.</span></td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:3:{s:4:"name";s:27:"(2) School Damage (físico)";s:6:"radius";s:2:"20";s:5:"value";i:4200;}}s:4:"icon";s:22:"Spell_Fire_MeteorStorm";}
+N;
+a:1:{i:48734;a:4:{s:5:"entry";s:5:"48734";s:4:"icon";s:22:"Spell_Fire_MeteorStorm";s:4:"name";s:21:"Bombardeo destructivo";s:4:"info";s:220:"<table><tr><td><b>Bombardeo destructivo</b><br />20 yd range<br />0.5 sec cast</td></tr></table><table><tr><td><span class="q">Inflige 4200 para 9801 p. de daño de Fuego a los enemigos cercanos.</span></td></tr></table>";}}
+N;

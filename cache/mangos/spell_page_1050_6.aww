@@ -1,0 +1,5 @@
+1312123484 12
+a:18:{s:5:"entry";s:4:"1050";s:4:"name";s:10:"Sacrificio";s:5:"stack";s:1:"0";s:8:"manacost";s:2:"28";s:5:"level";s:2:"39";s:5:"range";s:1:"0";s:9:"rangename";s:9:"Self Only";s:8:"casttime";s:11:"1  segundos";s:8:"cooldown";i:600;s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";N;s:6:"dispel";s:5:"Magia";s:8:"mechanic";N;s:4:"info";s:161:"<table><tr><td><b>Sacrificio</b><br />28 mana<br /><table width="100%"><tr><td>1 sec cast</td><th>10  min. de reutilización.</th></tr></table></td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:2:{i:0;a:3:{s:4:"name";s:17:"(2) School Damage";s:6:"radius";s:2:"20";s:5:"value";i:1388;}i:1;a:2:{s:4:"name";s:17:"(2) School Damage";s:5:"value";i:1850;}}s:4:"icon";s:29:"Spell_Holy_DivineIntervention";}
+N;
+a:1:{i:1050;a:4:{s:5:"entry";s:4:"1050";s:4:"icon";s:29:"Spell_Holy_DivineIntervention";s:4:"name";s:10:"Sacrificio";s:4:"info";s:161:"<table><tr><td><b>Sacrificio</b><br />28 mana<br /><table width="100%"><tr><td>1 sec cast</td><th>10  min. de reutilización.</th></tr></table></td></tr></table>";}}
+N;

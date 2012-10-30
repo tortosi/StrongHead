@@ -1,0 +1,5 @@
+1312140763 12
+a:16:{s:5:"entry";s:5:"42329";s:4:"name";s:17:"Flechas poseídas";s:5:"stack";s:1:"0";s:5:"level";s:1:"0";s:5:"range";s:2:"40";s:9:"rangename";s:10:"Long Range";s:8:"casttime";s:6:"Sofort";s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:90:"<table><tr><td><b>Flechas poseídas</b><br />40 yd range<br /> Instante.</td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:1:{s:4:"name";s:9:"(3) Dummy";}}s:4:"icon";s:19:"Spell_Fire_FireBolt";}
+N;
+a:1:{i:42329;a:4:{s:5:"entry";s:5:"42329";s:4:"icon";s:19:"Spell_Fire_FireBolt";s:4:"name";s:17:"Flechas poseídas";s:4:"info";s:90:"<table><tr><td><b>Flechas poseídas</b><br />40 yd range<br /> Instante.</td></tr></table>";}}
+N;

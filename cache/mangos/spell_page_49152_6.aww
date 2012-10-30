@@ -1,0 +1,5 @@
+1311947772 12
+a:16:{s:5:"entry";s:5:"49152";s:4:"name";s:21:"Empuñadura de titán";s:5:"stack";s:1:"0";s:5:"level";s:1:"0";s:5:"range";s:1:"0";s:9:"rangename";s:9:"Self Only";s:8:"casttime";s:6:"Sofort";s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:77:"<table><tr><td><b>Empuñadura de titán</b><br /> Instante.</td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:2:{s:4:"name";s:33:"(6) Apply Aura #79: Mod Dmg % (1)";s:5:"value";i:-10;}}s:4:"icon";s:26:"Ability_Warrior_TitansGrip";}
+N;
+a:1:{i:49152;a:4:{s:5:"entry";s:5:"49152";s:4:"icon";s:26:"Ability_Warrior_TitansGrip";s:4:"name";s:21:"Empuñadura de titán";s:4:"info";s:77:"<table><tr><td><b>Empuñadura de titán</b><br /> Instante.</td></tr></table>";}}
+N;

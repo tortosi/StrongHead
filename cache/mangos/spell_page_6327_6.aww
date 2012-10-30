@@ -1,0 +1,5 @@
+1312055814 12
+a:16:{s:5:"entry";s:4:"6327";s:4:"name";s:15:"Alimentar maná";s:5:"stack";s:1:"0";s:5:"level";s:1:"0";s:5:"range";s:2:"15";s:9:"rangename";s:13:"Fifteen yards";s:8:"casttime";s:6:"Sofort";s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:88:"<table><tr><td><b>Alimentar maná</b><br />15 yd range<br /> Instante.</td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:3:{s:4:"name";s:20:"(57) Learn Pet Spell";s:5:"value";i:0;s:5:"spell";a:2:{s:5:"entry";s:4:"6307";s:4:"name";s:15:"Pacto de sangre";}}}s:4:"icon";s:23:"Spell_Shadow_DarkRitual";}
+N;
+a:2:{i:6327;a:4:{s:5:"entry";s:4:"6327";s:4:"icon";s:23:"Spell_Shadow_DarkRitual";s:4:"name";s:15:"Alimentar maná";s:4:"info";s:88:"<table><tr><td><b>Alimentar maná</b><br />15 yd range<br /> Instante.</td></tr></table>";}i:6307;a:3:{s:5:"entry";s:4:"6307";s:4:"icon";s:22:"Spell_Shadow_BloodBoil";s:4:"name";s:15:"Pacto de sangre";}}
+N;

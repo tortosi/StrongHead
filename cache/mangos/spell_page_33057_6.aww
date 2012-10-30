@@ -1,0 +1,5 @@
+1312199177 12
+a:16:{s:5:"entry";s:5:"33057";s:4:"name";s:28:"Invoca al poderoso Tenacitas";s:5:"stack";s:1:"0";s:5:"level";s:2:"70";s:5:"range";s:1:"0";s:9:"rangename";s:9:"Self Only";s:8:"casttime";s:6:"Sofort";s:8:"duration";s:13:"600  segundos";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:169:"<table><tr><td><b>Invoca al poderoso Tenacitas</b><br /> Instante.</td></tr></table><table><tr><td><span class="q">Invoca al poderoso Tenacitas.</span></td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:1:{s:4:"name";s:19:"(28) Summon (18845)";}}s:4:"icon";s:16:"INV_Misc_Fish_14";}
+N;
+a:1:{i:33057;a:4:{s:5:"entry";s:5:"33057";s:4:"icon";s:16:"INV_Misc_Fish_14";s:4:"name";s:28:"Invoca al poderoso Tenacitas";s:4:"info";s:169:"<table><tr><td><b>Invoca al poderoso Tenacitas</b><br /> Instante.</td></tr></table><table><tr><td><span class="q">Invoca al poderoso Tenacitas.</span></td></tr></table>";}}
+N;

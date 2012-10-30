@@ -1,0 +1,5 @@
+1312034529 12
+a:16:{s:5:"entry";s:5:"56575";s:4:"name";s:19:"Construir demoledor";s:5:"stack";s:1:"0";s:5:"level";s:2:"80";s:5:"range";s:3:"100";s:9:"rangename";s:9:"Tower 100";s:8:"casttime";s:11:"5  segundos";s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";N;s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:172:"<table><tr><td><b>Construir demoledor</b><br />100 yd range<br />5 sec cast</td></tr></table><table><tr><td><span class="q">Construye un demoledor.</span></td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:2:{i:0;a:2:{s:4:"name";s:9:"(3) Dummy";s:6:"radius";s:3:"100";}i:1;a:1:{s:4:"name";s:19:"(28) Summon (28094)";}}s:4:"icon";s:14:"INV_Misc_Map07";}
+N;
+a:1:{i:56575;a:4:{s:5:"entry";s:5:"56575";s:4:"icon";s:14:"INV_Misc_Map07";s:4:"name";s:19:"Construir demoledor";s:4:"info";s:172:"<table><tr><td><b>Construir demoledor</b><br />100 yd range<br />5 sec cast</td></tr></table><table><tr><td><span class="q">Construye un demoledor.</span></td></tr></table>";}}
+N;

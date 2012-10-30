@@ -1,0 +1,5 @@
+1312121901 12
+a:16:{s:5:"entry";s:5:"13258";s:4:"name";s:20:"Invocar bomba goblin";s:5:"stack";s:1:"0";s:5:"level";s:2:"40";s:5:"range";s:1:"0";s:9:"rangename";s:9:"Self Only";s:8:"casttime";s:14:"0.25  segundos";s:8:"duration";s:12:"60  segundos";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:246:"<table><tr><td><b>Invocar bomba goblin</b><br />0.25 sec cast</td></tr></table><table><tr><td><span class="q">Crea una bomba móvil que embiste al enemigo más cercano y explota infligiendo 315 para 386 de daño de Fuego.</span></td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:1:{s:4:"name";s:18:"(28) Summon (8937)";}}s:4:"icon";s:14:"Ability_Repair";}
+N;
+a:1:{i:13258;a:4:{s:5:"entry";s:5:"13258";s:4:"icon";s:14:"Ability_Repair";s:4:"name";s:20:"Invocar bomba goblin";s:4:"info";s:246:"<table><tr><td><b>Invocar bomba goblin</b><br />0.25 sec cast</td></tr></table><table><tr><td><span class="q">Crea una bomba móvil que embiste al enemigo más cercano y explota infligiendo 315 para 386 de daño de Fuego.</span></td></tr></table>";}}
+N;

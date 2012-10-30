@@ -1,0 +1,5 @@
+1311714148 12
+a:16:{s:5:"entry";s:5:"32343";s:4:"name";s:17:"Revivir uno mismo";s:5:"stack";s:1:"0";s:5:"level";s:1:"0";s:5:"range";s:3:"100";s:9:"rangename";s:12:"Vision Range";s:8:"casttime";s:6:"Sofort";s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:91:"<table><tr><td><b>Revivir uno mismo</b><br />100 yd range<br /> Instante.</td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:1:{s:4:"name";s:9:"(3) Dummy";}}s:4:"icon";s:23:"Spell_Holy_Resurrection";}
+N;
+a:1:{i:32343;a:4:{s:5:"entry";s:5:"32343";s:4:"icon";s:23:"Spell_Holy_Resurrection";s:4:"name";s:17:"Revivir uno mismo";s:4:"info";s:91:"<table><tr><td><b>Revivir uno mismo</b><br />100 yd range<br /> Instante.</td></tr></table>";}}
+N;

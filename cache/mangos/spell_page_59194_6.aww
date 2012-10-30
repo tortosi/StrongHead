@@ -1,0 +1,5 @@
+1312122031 12
+a:17:{s:5:"entry";s:5:"59194";s:4:"name";s:20:"Bahía de bombardero";s:5:"stack";s:1:"0";s:5:"level";s:1:"0";s:5:"range";s:1:"0";s:9:"rangename";s:9:"Self Only";s:8:"casttime";s:6:"Sofort";s:8:"cooldown";i:1;s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";N;s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:250:"<table><tr><td><b>Bahía de bombardero</b><br /><table width="100%"><tr><td> Instante.</td><th>0.016666666666667  min. de reutilización.</th></tr></table></td></tr></table><table><tr><td><span class="q">Cambiar a bombardero.</span></td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:1:{s:4:"name";s:9:"(3) Dummy";}}s:4:"icon";s:16:"INV_Misc_Bomb_01";}
+N;
+a:1:{i:59194;a:4:{s:5:"entry";s:5:"59194";s:4:"icon";s:16:"INV_Misc_Bomb_01";s:4:"name";s:20:"Bahía de bombardero";s:4:"info";s:250:"<table><tr><td><b>Bahía de bombardero</b><br /><table width="100%"><tr><td> Instante.</td><th>0.016666666666667  min. de reutilización.</th></tr></table></td></tr></table><table><tr><td><span class="q">Cambiar a bombardero.</span></td></tr></table>";}}
+N;
