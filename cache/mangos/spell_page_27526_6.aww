@@ -1,5 +1,0 @@
-1311947924 12
-a:17:{s:5:"entry";s:5:"27526";s:4:"name";s:16:"Drenaje de maná";s:5:"stack";s:1:"0";s:5:"level";s:1:"0";s:5:"range";s:5:"50000";s:9:"rangename";s:8:"Anywhere";s:8:"casttime";s:6:"Sofort";s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:92:"<table><tr><td><b>Drenaje de maná</b><br />50000 yd range<br /> Instante.</td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:2:{s:4:"name";s:15:"(8) Power Drain";s:5:"value";i:8;}}s:4:"icon";s:23:"Spell_Shadow_SiphonMana";s:7:"seealso";a:1:{i:0;a:8:{s:5:"entry";s:2:"14";s:7:"quality";s:1:"@";s:4:"name";s:16:"Drenaje de maná";s:4:"rank";s:0:"";s:5:"level";s:1:"1";s:6:"school";s:1:"0";s:3:"cat";i:0;s:8:"reagents";a:0:{}}}}
-N;
-a:2:{i:27526;a:4:{s:5:"entry";s:5:"27526";s:4:"icon";s:23:"Spell_Shadow_SiphonMana";s:4:"name";s:16:"Drenaje de maná";s:4:"info";s:92:"<table><tr><td><b>Drenaje de maná</b><br />50000 yd range<br /> Instante.</td></tr></table>";}i:14;a:3:{s:5:"entry";s:2:"14";s:4:"icon";s:17:"Trade_Engineering";s:4:"name";s:16:"Drenaje de maná";}}
-N;

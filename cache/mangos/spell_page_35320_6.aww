@@ -1,5 +1,0 @@
-1312199245 12
-a:16:{s:5:"entry";s:5:"35320";s:4:"name";s:15:"Piel eléctrica";s:5:"stack";s:1:"0";s:5:"level";s:2:"20";s:5:"range";s:3:"100";s:9:"rangename";s:12:"Vision Range";s:8:"casttime";s:6:"Sofort";s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:240:"<table><tr><td><b>Piel eléctrica</b><br />100 yd range<br /> Instante.</td></tr></table><table><tr><td><span class="q">Lanza una descarga de relámpagos sobre el objetivo que le inflige 4 p. de daño de Naturaleza.</span></td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:3:{s:4:"name";s:27:"(2) School Damage (físico)";s:6:"radius";s:1:"8";s:5:"value";i:4;}}s:4:"icon";s:22:"Spell_Nature_Lightning";}
-N;
-a:1:{i:35320;a:4:{s:5:"entry";s:5:"35320";s:4:"icon";s:22:"Spell_Nature_Lightning";s:4:"name";s:15:"Piel eléctrica";s:4:"info";s:240:"<table><tr><td><b>Piel eléctrica</b><br />100 yd range<br /> Instante.</td></tr></table><table><tr><td><span class="q">Lanza una descarga de relámpagos sobre el objetivo que le inflige 4 p. de daño de Naturaleza.</span></td></tr></table>";}}
-N;

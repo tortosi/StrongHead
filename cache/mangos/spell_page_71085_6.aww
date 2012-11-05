@@ -1,5 +1,0 @@
-1311948283 12
-a:16:{s:5:"entry";s:5:"71085";s:4:"name";s:15:"Vacío de maná";s:5:"stack";s:1:"0";s:5:"level";s:1:"0";s:5:"range";s:1:"0";s:9:"rangename";s:9:"Self Only";s:8:"casttime";s:6:"Sofort";s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:71:"<table><tr><td><b>Vacío de maná</b><br /> Instante.</td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:4:{s:4:"name";s:36:"(6) Apply Aura #23: Periodic Trigger";s:5:"value";i:0;s:8:"interval";d:0.5;s:5:"spell";a:2:{s:5:"entry";s:5:"71086";s:4:"name";s:15:"Vacío de maná";}}}s:4:"icon";s:22:"INV_Enchant_VoidSphere";}
-N;
-a:2:{i:71085;a:4:{s:5:"entry";s:5:"71085";s:4:"icon";s:22:"INV_Enchant_VoidSphere";s:4:"name";s:15:"Vacío de maná";s:4:"info";s:71:"<table><tr><td><b>Vacío de maná</b><br /> Instante.</td></tr></table>";}i:71086;a:3:{s:5:"entry";s:5:"71086";s:4:"icon";s:22:"INV_Enchant_VoidSphere";s:4:"name";s:15:"Vacío de maná";}}
-N;

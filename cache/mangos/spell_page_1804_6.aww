@@ -1,5 +1,0 @@
-1312725506 12
-a:16:{s:5:"entry";s:4:"1804";s:4:"name";s:16:"Forzar cerradura";s:5:"stack";s:1:"0";s:5:"level";s:1:"1";s:5:"range";s:1:"5";s:9:"rangename";s:14:"Interact Range";s:8:"casttime";s:11:"5  segundos";s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:193:"<table><tr><td><b>Forzar cerradura</b><br />5 yd range<br />5 sec cast</td></tr></table><table><tr><td><span class="q">Permite abrir las cerraduras de cofres y puertas.</span></td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:2:{s:4:"name";s:18:"(33) Open Lock (1)";s:5:"value";i:5;}}s:4:"icon";s:20:"Spell_Nature_MoonKey";}
-N;
-a:1:{i:1804;a:4:{s:5:"entry";s:4:"1804";s:4:"icon";s:20:"Spell_Nature_MoonKey";s:4:"name";s:16:"Forzar cerradura";s:4:"info";s:193:"<table><tr><td><b>Forzar cerradura</b><br />5 yd range<br />5 sec cast</td></tr></table><table><tr><td><span class="q">Permite abrir las cerraduras de cofres y puertas.</span></td></tr></table>";}}
-N;

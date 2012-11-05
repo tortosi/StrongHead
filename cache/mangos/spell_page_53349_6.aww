@@ -1,5 +1,0 @@
-1312140761 12
-a:16:{s:5:"entry";s:5:"53349";s:4:"name";s:18:"Asalto con flechas";s:5:"stack";s:1:"0";s:5:"level";s:1:"0";s:5:"range";s:5:"50000";s:9:"rangename";s:8:"Anywhere";s:8:"casttime";s:6:"Sofort";s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:234:"<table><tr><td><b>Asalto con flechas</b><br />50000 yd range<br /> Instante.</td></tr></table><table><tr><td><span class="q">Inflige 438 para 563 p. de daño a todos los enemigos que están en un radio de 4 m.</span></td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:3:{s:4:"name";s:27:"(2) School Damage (físico)";s:6:"radius";s:1:"4";s:5:"value";i:438;}}s:4:"icon";s:18:"Spell_Fire_Burnout";}
-N;
-a:1:{i:53349;a:4:{s:5:"entry";s:5:"53349";s:4:"icon";s:18:"Spell_Fire_Burnout";s:4:"name";s:18:"Asalto con flechas";s:4:"info";s:234:"<table><tr><td><b>Asalto con flechas</b><br />50000 yd range<br /> Instante.</td></tr></table><table><tr><td><span class="q">Inflige 438 para 563 p. de daño a todos los enemigos que están en un radio de 4 m.</span></td></tr></table>";}}
-N;

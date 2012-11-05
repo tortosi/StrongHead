@@ -1,5 +1,0 @@
-1312221354 12
-a:2:{i:0;a:14:{s:5:"entry";s:5:"16083";s:4:"name";s:36:"Pesca para expertos: La lubina y tú";s:4:"type";s:1:"0";s:9:"displayid";N;s:5:"level";s:2:"30";s:7:"quality";s:1:"1";s:8:"quality2";i:6;s:8:"reqlevel";s:1:"0";s:6:"classs";s:1:"9";s:8:"subclass";s:1:"9";s:8:"iconname";s:16:"INV_Misc_Book_08";s:9:"stackable";s:1:"1";s:5:"armor";s:1:"0";s:4:"slot";s:1:"0";}i:1;a:14:{s:5:"entry";s:5:"27532";s:4:"name";s:43:"Maestro de pesca - El arte de la cucharilla";s:4:"type";s:1:"0";s:9:"displayid";N;s:5:"level";s:2:"55";s:7:"quality";s:1:"1";s:8:"quality2";i:6;s:8:"reqlevel";s:2:"45";s:6:"classs";s:1:"9";s:8:"subclass";s:1:"9";s:8:"iconname";s:16:"INV_Misc_Book_06";s:9:"stackable";s:1:"1";s:5:"armor";s:1:"0";s:4:"slot";s:1:"0";}}
-a:2:{i:16083;a:4:{s:5:"entry";s:5:"16083";s:4:"icon";s:16:"INV_Misc_Book_08";s:7:"quality";s:1:"1";s:4:"name";s:36:"Pesca para expertos: La lubina y tú";}i:27532;a:4:{s:5:"entry";s:5:"27532";s:4:"icon";s:16:"INV_Misc_Book_06";s:7:"quality";s:1:"1";s:4:"name";s:43:"Maestro de pesca - El arte de la cucharilla";}}
-N;
-N;

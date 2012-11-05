@@ -1,5 +1,0 @@
-1312126239 12
-a:17:{s:5:"entry";s:4:"8149";s:4:"name";s:18:"Superinvisibilidad";s:5:"stack";s:1:"0";s:5:"level";s:1:"0";s:5:"range";s:1:"0";s:9:"rangename";s:9:"Self Only";s:8:"casttime";s:6:"Sofort";s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:74:"<table><tr><td><b>Superinvisibilidad</b><br /> Instante.</td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:2:{s:4:"name";s:36:"(6) Apply Aura #18: Mod Invisibility";s:5:"value";i:10000;}}s:4:"icon";s:29:"Spell_Magic_LesserInvisibilty";s:7:"seealso";a:1:{i:0;a:8:{s:5:"entry";s:5:"51913";s:7:"quality";s:1:"@";s:4:"name";s:18:"Superinvisibilidad";s:4:"rank";s:0:"";s:5:"level";s:1:"0";s:6:"school";s:1:"0";s:3:"cat";i:0;s:8:"reagents";a:0:{}}}}
-N;
-a:2:{i:8149;a:4:{s:5:"entry";s:4:"8149";s:4:"icon";s:29:"Spell_Magic_LesserInvisibilty";s:4:"name";s:18:"Superinvisibilidad";s:4:"info";s:74:"<table><tr><td><b>Superinvisibilidad</b><br /> Instante.</td></tr></table>";}i:51913;a:3:{s:5:"entry";s:5:"51913";s:4:"icon";s:29:"Spell_Magic_LesserInvisibilty";s:4:"name";s:18:"Superinvisibilidad";}}
-N;

@@ -1,5 +1,0 @@
-1312364175 12
-a:25:{s:5:"entry";s:5:"39303";s:4:"name";s:24:"Alfombra Voladora Presta";s:4:"type";s:1:"0";s:9:"displayid";s:5:"51685";s:5:"level";s:2:"80";s:7:"quality";s:1:"4";s:8:"quality2";i:3;s:8:"reqlevel";s:2:"70";s:6:"classs";s:2:"15";s:8:"subclass";s:1:"5";s:8:"iconname";s:26:"INV_Misc_Cape_Naxxramas_02";s:9:"stackable";s:1:"1";s:5:"armor";s:1:"0";s:4:"slot";s:1:"0";s:8:"BuyPrice";s:1:"0";s:9:"BagFamily";s:1:"0";s:14:"ContainerSlots";s:1:"0";s:12:"DisenchantID";s:1:"0";s:8:"sellgold";d:0;s:10:"sellsilver";d:0;s:10:"sellcopper";d:0;s:7:"buygold";d:0;s:9:"buysilver";d:0;s:9:"buycopper";d:0;s:4:"info";s:214:"<table><tr><td><b class="q4">Alfombra Voladora Presta</b><br />Se liga al recogerlo<br />Único<br />Necesitas ser de nivel 70<br />Requires Sastrería (420)<br /></td></tr></table><table><tr><td></td></tr></table>";}
-a:1:{i:39303;a:4:{s:5:"entry";s:5:"39303";s:4:"icon";s:26:"INV_Misc_Cape_Naxxramas_02";s:7:"quality";s:1:"4";s:4:"name";s:24:"Alfombra Voladora Presta";}}
-a:1:{i:60969;a:3:{s:5:"entry";s:5:"60969";s:4:"icon";s:26:"ability_mount_flyingcarpet";s:4:"name";s:17:"Alfombra voladora";}}
-N;

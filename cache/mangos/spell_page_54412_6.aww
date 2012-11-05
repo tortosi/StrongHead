@@ -1,5 +1,0 @@
-1312055872 12
-a:17:{s:5:"entry";s:5:"54412";s:4:"name";s:16:"Citrino de maná";s:5:"stack";s:1:"0";s:8:"manacost";s:4:"1130";s:5:"level";s:1:"0";s:5:"range";s:1:"0";s:9:"rangename";s:9:"Self Only";s:8:"casttime";s:11:"3  segundos";s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:242:"<table><tr><td><b>Citrino de maná</b><br />1130 mana<br />3 sec cast</td></tr></table><table><tr><td><span class="q">Crea un citrino de maná que se puede utilizar para recuperar al instante 829 para 872 p. de maná.</span></td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:1:{s:4:"name";s:17:"(66) Power Funnel";}}s:4:"icon";s:21:"INV_Misc_Gem_Stone_01";}
-N;
-a:1:{i:54412;a:4:{s:5:"entry";s:5:"54412";s:4:"icon";s:20:"INV_Misc_Gem_Opal_01";s:4:"name";s:16:"Citrino de maná";s:4:"info";s:242:"<table><tr><td><b>Citrino de maná</b><br />1130 mana<br />3 sec cast</td></tr></table><table><tr><td><span class="q">Crea un citrino de maná que se puede utilizar para recuperar al instante 829 para 872 p. de maná.</span></td></tr></table>";}}
-N;

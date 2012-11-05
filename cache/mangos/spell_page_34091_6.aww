@@ -1,5 +1,0 @@
-1312198083 12
-a:16:{s:5:"entry";s:5:"34091";s:4:"name";s:15:"Artesano jinete";s:5:"stack";s:1:"0";s:5:"level";s:1:"1";s:5:"range";s:1:"0";s:9:"rangename";s:9:"Self Only";s:8:"casttime";s:6:"Sofort";s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:152:"<table><tr><td><table width="100%"><tr><td><b>Artesano jinete</b><br /></td><th><b class="q0">Artesano</b></th></tr></table> Instante.</td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:2:{i:0;a:1:{s:4:"name";s:9:"(3) Dummy";}i:1;a:2:{s:4:"name";s:33:"(118) Require Skill (Equitación)";s:5:"value";i:4;}}s:4:"icon";s:22:"Spell_Nature_Swiftness";}
-N;
-a:1:{i:34091;a:4:{s:5:"entry";s:5:"34091";s:4:"icon";s:22:"Spell_Nature_Swiftness";s:4:"name";s:15:"Artesano jinete";s:4:"info";s:152:"<table><tr><td><table width="100%"><tr><td><b>Artesano jinete</b><br /></td><th><b class="q0">Artesano</b></th></tr></table> Instante.</td></tr></table>";}}
-N;

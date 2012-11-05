@@ -1,5 +1,0 @@
-1312125376 12
-a:17:{s:5:"entry";s:5:"38329";s:4:"name";s:21:"Reducción de amenaza";s:5:"stack";s:1:"0";s:5:"level";s:1:"0";s:5:"range";s:3:"100";s:9:"rangename";s:12:"Vision Range";s:8:"casttime";s:6:"Sofort";s:8:"duration";s:27:"<span class="q0">n/a</span>";s:6:"school";s:7:"físico";s:6:"dispel";N;s:8:"mechanic";N;s:4:"info";s:95:"<table><tr><td><b>Reducción de amenaza</b><br />100 yd range<br /> Instante.</td></tr></table>";s:5:"tools";a:0:{}s:8:"reagents";a:0:{}s:6:"effect";a:1:{i:0;a:2:{s:4:"name";s:11:"(63) Threat";s:5:"value";i:-150;}}s:4:"icon";s:22:"Ability_Physical_Taunt";s:7:"seealso";a:1:{i:0;a:8:{s:5:"entry";s:5:"38328";s:7:"quality";s:1:"@";s:4:"name";s:21:"Reducción de amenaza";s:4:"rank";s:0:"";s:5:"level";s:1:"0";s:6:"school";s:1:"0";s:3:"cat";i:0;s:8:"reagents";a:0:{}}}}
-N;
-a:2:{i:38329;a:4:{s:5:"entry";s:5:"38329";s:4:"icon";s:22:"Ability_Physical_Taunt";s:4:"name";s:21:"Reducción de amenaza";s:4:"info";s:95:"<table><tr><td><b>Reducción de amenaza</b><br />100 yd range<br /> Instante.</td></tr></table>";}i:38328;a:3:{s:5:"entry";s:5:"38328";s:4:"icon";s:22:"Ability_Physical_Taunt";s:4:"name";s:21:"Reducción de amenaza";}}
-N;
