@@ -127,6 +127,9 @@ switch($razdel)
 	case 'talent':
 		include 'talent.php';
 		break;
+	case 'zone':
+		include 'zone.php';
+		break;
 	case 'data':
 		include 'data.php';
 		break;
