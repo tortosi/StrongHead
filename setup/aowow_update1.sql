@@ -1,6 +1,3 @@
-﻿SET NAMES 'utf8';
-SET SQL_MODE = '';
-
 DROP TABLE IF EXISTS `aowow_news`;
 CREATE TABLE `aowow_news` (
   `id` mediumint(8) unsigned NOT NULL auto_increment,
