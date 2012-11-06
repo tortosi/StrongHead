@@ -133,6 +133,9 @@ switch($razdel)
 	case 'data':
 		include 'data.php';
 		break;
+	case 'screenshot':
+		include 'screenshot.php';
+		break;
 	default:
 		include 'main.php';
 		break;
