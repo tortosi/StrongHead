@@ -56,7 +56,7 @@ if(!$found = load_cache(SEARCH, $cache_key))
 			WHERE
 				(i.name LIKE ? {OR i.entry IN (?a)})
 				AND a.id = i.displayid;
-			LIMIT '.$AoWoWconf['limit'].'
+			
 		',
 		$item_cols[3],
 		($m)? $_SESSION['locale']: DBSIMPLE_SKIP,
