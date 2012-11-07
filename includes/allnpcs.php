@@ -1,7 +1,7 @@
 <?php
 require_once ( 'includes/alllocales.php' );
 
-// Для списка creatureinfo()
+// Para obtener información criatura
 $npc_cols [0] = array ( 'name', 'subname', 'minlevel', 'maxlevel', 'type', 'rank', 'A', 'H' );
 $npc_cols [1] = array ( 'subname', 'minlevel', 'maxlevel', 'type', 'rank', /*'minhealth', 'maxhealth', 'minmana', 'maxmana',*/ 'mingold', 'maxgold', 'lootid', 'skinloot', 'pickpocketloot', 'spell1', 'spell2', 'spell3', 'spell4', 'A', 'H', 'mindmg', 'maxdmg', 'attackpower', 'dmg_multiplier', /*'armor',*/ 'difficulty_entry_1' );
 
@@ -20,16 +20,16 @@ function creatureinfo2 ( $Row )
     switch ( $Row ['rank'] )
     {
         case 1:
-            $rank = ' (Elite)';
+            $rank = ' '.LOCALE_NPCRANK_ELITE.'';
             break;
         case 2:
-            $rank = ' (Rar Elite)';
+            $rank = ' '.LOCALE_NPCRANK_RAREELITE.'';
             break;
         case 3:
-            $rank = ' (Boss)';
+            $rank = ' '.LOCALE_NPCRANK_BOSS.'';
             break;
         case 4:
-            $rank = ' (Rar)';
+            $rank = ' '.LOCALE_NPCRANK_RARE.'';
             break;
         default:
             $rank = '';
@@ -39,41 +39,41 @@ function creatureinfo2 ( $Row )
     switch ( $Row ['type'] )
     {
         case 1:
-            $type = 'Wildtier';
+            $type = ' '.LOCALE_NPCTYPE_BEAST.'';
             break;
         case 2:
-            $type = 'Drachkin';
+            $type = ' '.LOCALE_NPCTYPE_DRANGONKIN.'';
             break;
         case 3:
-            $type = 'Dämon';
+            $type = ' '.LOCALE_NPCTYPE_DEMON.'';
             break;
         case 4:
-            $type = 'Elementar';
+            $type = ' '.LOCALE_NPCTYPE_ELEMENTAL.'';
             break;
         case 5:
-            $type = 'Riese';
+            $type = ' '.LOCALE_NPCTYPE_GIANT.'';
             break;
         case 6:
-            $type = 'Untoter';
+            $type = ' '.LOCALE_NPCTYPE_UNDEAD.'';
             break;
         case 7:
-            $type = 'Humanoid';
+            $type = ' '.LOCALE_NPCTYPE_HUMANOID.'';
             break;
         case 8:
-            $type = 'Tier';
+            $type = ' '.LOCALE_NPCTYPE_CRITTER.'';
             break;
         case 9:
-            $type = 'Mechanisch';
+            $type = ' '.LOCALE_NPCTYPE_MECHANIC.'';
             break;
         case 10:
-            $type = 'Nicht kategorisiert';
+            $type = ' '.LOCALE_NPCTYPE_UNCATEGORIZED.'';
             break;
         default:
             $type = '';
             break;
     }
     
-    $x .= "Level {$level} {$type}{$rank}";
+    $x .= "'.LOCALE_LVL.' {$level} {$type}{$rank}";
     $x .= "</td></tr></table>";
     
     $creature ['tooltip'] = $x;
