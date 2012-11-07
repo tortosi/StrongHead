@@ -2,6 +2,7 @@
 
 	<div id="main">
 		<div id="main-precontents"></div>
+			{include file='filter.tpl'}
 		<div id="main-contents" class="main-contents">
 			<script type="text/javascript">
 				g_initPath({$page.path});

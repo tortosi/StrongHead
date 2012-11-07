@@ -1433,6 +1433,8 @@ var Tooltip = {
 };
 var g_dev = false;
 var g_locale = {
+	id: 0,
+	name: "enen",
 	id: 6,
 	name: "eses"
 };
@@ -1461,7 +1463,8 @@ var g_types = {
 };
 var g_locales = {
 	0 : "enus",
-	6 : "eses"
+	6 : "eses",
+	8 : "ruru"
 };
 var g_file_races = {
 	10 : "bloodelf",

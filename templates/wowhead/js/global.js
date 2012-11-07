@@ -793,7 +793,7 @@ function g_initHeaderMenus() {
         c.menu = [[0, "Spanish", (g_locale.id != 6 ? "?locale=6" : null)], [0, "English", (g_locale.id != 0 ? "?locale=0" : null)]];
         c.menu.rightAligned = 1;
         if (g_locale.id != 25) {
-            c.menu[{6: 0,0: 1,}[g_locale.id]].checked = 1
+            c.menu[{6: 0,0: 1}[g_locale.id]].checked = 1
         }
         c.onmouseover = Menu.show;
         c.onmouseout = Menu.hide
@@ -1266,18 +1266,10 @@ function g_getIngameLink(a, c, b) {
     prompt(LANG.prompt_ingamelink, '/script DEFAULT_CHAT_FRAME:AddMessage("\\124c' + a + "\\124H" + c + "\\124h[" + b + ']\\124h\\124r");')
 }
 function g_getBBCodeLink(a, c, b) {
-	var f = b.split(" ");
-      var g = "";
-	for (var x = 0, y = f.length; x < y; ++x) {
-	g+='[url=http://mewetdb.in/?item=' + c +'][color=' + a + ']' +f[x]+' [/color][/url]';
-	}
-      prompt(LANG.prompt_bbcodelink, g)
-}
-function g_getBBCodeLink(a, c, b) {
     var f = b.split(" ");
 	var g = "";
     for (var x = 0, y = f.length; x < y; ++x) {
-		g+='[url=http://mewetdb.in/?item=' + c +'][color=' + a + ']' +f[x]+' [/color][/url]';
+		g+='[url='+DOMAIN+'/?item=' + c +'][color=' + a + ']' +f[x]+' [/color][/url]';
     }
 	prompt(LANG.prompt_bbcodelink, g)
 }
@@ -7029,7 +7021,7 @@ function() {
                 }
             }
         }
-        var P = "http://mewetdb.in/ajax.php?" + p[W][1] + "=" + S + "&power" + R;
+        var P = DOMAIN+"/ajax.php?" + p[W][1] + "=" + S + "&power" + R;
         g_ajaxIshRequest(P)
     }
     function N(R, S) {

@@ -155,3 +155,4 @@ tabsRelated.flush();
 		</div>
 
 {include file='footer.tpl'}
+
