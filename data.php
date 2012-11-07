@@ -15,9 +15,7 @@ switch($_GET['data'])
 		// y - строка (row из aowow_talent)
 		// r - от чего и какого ранка зависит: "r: [r_1, r_2]", где r_1 - номер (нумерация с 0) таланта, r_2 - ранк
 		$class = intval($_GET['class']);
-		if(!in_array($class, array_keys($classes)))
-			exit;
-
+		
 		if(!$p_arr = load_cache(TALENT_DATA, $class))
 		{
 			unset($p_arr);
@@ -138,7 +136,7 @@ switch($_GET['data'])
 					'description'	=> (string)spell_desc($glyph['spellid']),
 					'icon'			=> (string)$glyph['iconname'],
 					'type'			=> (int)($glyph['typeflags']&1 ? 2 : 1),	// 1 - Большой символ, 2 - Малый символ
-					'classs'		=> (int)$glyph['subclass'],
+					'class'			=> (int)$glyph['subclass'],
 					'skill'			=> (int)2  // Skill???
 				);
 			}
