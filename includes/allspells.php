@@ -773,8 +773,8 @@ function render_spell_tooltip(&$row)
 	if($range && (($row['manacost'] >0) || ($row['manacostpercent']>0)))
 		$x .= '</td><th>';
 
-	if($range)
-		$x .= $range.' yd range<br />';
+	if($range) 
+		$x .= ''.LOCALE_RANGE.''.$range.' '.LOCALE_M.'<br />';
 
 	if($range && ($row['manacost'] > 0 || $row['manacostpercent'] > 0))
 		$x .= '</th></tr></table>';
@@ -785,7 +785,7 @@ function render_spell_tooltip(&$row)
 	if($row['ChannelInterruptFlags'])
 		$x .= 'Channeled';
 	elseif(isset($casttime))
-		$x .= $casttime.' sec cast';
+		$x .=''.LOCALE_CAST.' '.$casttime.' '.LOCALE_SEC.'';
 	elseif($row['spellcasttimesID'] == 1)
 		$x .= LOCALE_INSTANT;
 

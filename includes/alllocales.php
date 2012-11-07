@@ -276,6 +276,10 @@ switch($_SESSION['locale'])
 			'LOCALE_SECONDS_CD'		=>	' seg. de reutilización.',
 			'LOCALE_INSTANT'		=>	' Instante.',
 			'RIGHT_CLICK_TO_READ'		=>	' Click derecho para leer.',
+			'LOCALE_SEC'		=>	'seg',
+			'LOCALE_M'		=>	'm',
+			'LOCALE_CAST'		=>	'Hechizo de ',
+			'LOCALE_RANGE'		=>	'Alcance de ',
 		));
 		break;
 	// --- ENGLISH default LOCALE ---
@@ -547,6 +551,10 @@ switch($_SESSION['locale'])
 			'LOCALE_MINUTES_CD'		=>	' min. cooldown.',
 			'LOCALE_SECONDS_CD'		=>	' sec. cooldown.',
 			'LOCALE_INSTANT'		=>	' Instant.',
+			'LOCALE_SEC'		=>	'seg',
+			'LOCALE_M'		=>	'm',
+			'LOCALE_CAST'		=>	'Hechizo de ',
+			'LOCALE_RANGE'		=>	'Alcance de ',
 		));
 		break;
 }
