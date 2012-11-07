@@ -16,4 +16,3 @@ var lv_screenshots = [
 {/foreach}
 ];
 {/strip}
-

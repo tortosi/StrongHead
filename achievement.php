@@ -322,6 +322,7 @@ $smarty->assign('page', $page);
 // Комментарии
 $smarty->assign('comments', getcomments($page['type'], $page['typeid']));
 $smarty->assign('screenshots', getscreenshots($page['type'], $page['typeid']));
+
 // Статистика выполнения mysql запросов
 $smarty->assign('mysql', $DB->getStatistics());
 $smarty->assign('achievement', $achievement);
