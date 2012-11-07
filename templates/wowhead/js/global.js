@@ -1266,6 +1266,14 @@ function g_getIngameLink(a, c, b) {
     prompt(LANG.prompt_ingamelink, '/script DEFAULT_CHAT_FRAME:AddMessage("\\124c' + a + "\\124H" + c + "\\124h[" + b + ']\\124h\\124r");')
 }
 function g_getBBCodeLink(a, c, b) {
+	var f = b.split(" ");
+      var g = "";
+	for (var x = 0, y = f.length; x < y; ++x) {
+	g+='[url=http://mewetdb.in/?item=' + c +'][color=' + a + ']' +f[x]+' [/color][/url]';
+	}
+      prompt(LANG.prompt_bbcodelink, g)
+}
+function g_getBBCodeLink(a, c, b) {
     var f = b.split(" ");
 	var g = "";
     for (var x = 0, y = f.length; x < y; ++x) {
