@@ -11,11 +11,11 @@ $item_cols = array(
 	// для allitems($level=0) - соответствия номер-иконка
 	0 => array('entry', 'iconname', 'quality', 'name'),
 	// для allitems($level=1) - ajax, тултип
-	1 => array('entry', 'name', 'quality', 'iconname', 'maxcount', 'bonding', 'startquest', 'Map', 'ContainerSlots', 'class', 'InventoryType', 'subclass', 'dmg_type1', 'dmg_min1', 'dmg_max1', 'delay', 'dmg_type2', 'dmg_min2', 'dmg_max2', 'armor', 'block', 'GemProperties', 'stat_type1', 'stat_type2', 'stat_type3', 'stat_type4', 'stat_type5', 'stat_type6', 'stat_type7', 'stat_type8', 'stat_type9', 'stat_type10', 'stat_value1', 'stat_value2', 'stat_value3', 'stat_value4', 'stat_value5', 'stat_value6', 'stat_value7', 'stat_value8', 'stat_value9', 'stat_value10', 'holy_res', 'fire_res', 'nature_res', 'frost_res', 'shadow_res', 'arcane_res', 'RandomProperty', 'RandomSuffix', 'socketColor_1', 'socketColor_2', 'socketColor_3', 'socketBonus', 'MaxDurability', 'AllowableClass', 'RequiredLevel', 'RequiredSkill', 'requiredspell', 'RequiredReputationFaction', 'RequiredReputationRank', 'spellid_1', 'spellid_2', 'spellid_3', 'spellid_4', 'spellid_5', 'spelltrigger_1', 'spelltrigger_2', 'spelltrigger_3', 'spelltrigger_4', 'spelltrigger_5', 'spellcharges_1','spellcharges_2','spellcharges_3','spellcharges_4','spellcharges_5', 'spellppmRate_1','spellppmRate_2','spellppmRate_3','spellppmRate_4','spellppmRate_5', 'spellcooldown_1','spellcooldown_2','spellcooldown_3','spellcooldown_4','spellcooldown_5', 'spellcategorycooldown_1','spellcategorycooldown_2','spellcategorycooldown_3','spellcategorycooldown_4','spellcategorycooldown_5', 'description', 'PageText', 'BagFamily', 'RequiredSkillRank', 'itemset'),
+	1 => array('entry', 'flags', 'name', 'quality', 'iconname', 'maxcount', 'bonding', 'startquest', 'Map', 'ContainerSlots', 'class', 'InventoryType', 'subclass', 'dmg_type1', 'dmg_min1', 'dmg_max1', 'delay', 'dmg_type2', 'dmg_min2', 'dmg_max2', 'armor', 'block', 'GemProperties', 'stat_type1', 'stat_type2', 'stat_type3', 'stat_type4', 'stat_type5', 'stat_type6', 'stat_type7', 'stat_type8', 'stat_type9', 'stat_type10', 'stat_value1', 'stat_value2', 'stat_value3', 'stat_value4', 'stat_value5', 'stat_value6', 'stat_value7', 'stat_value8', 'stat_value9', 'stat_value10', 'holy_res', 'fire_res', 'nature_res', 'frost_res', 'shadow_res', 'arcane_res', 'RandomProperty', 'RandomSuffix', 'socketColor_1', 'socketColor_2', 'socketColor_3', 'socketBonus', 'MaxDurability', 'AllowableClass', 'AllowableRace', 'RequiredLevel', 'RequiredSkill', 'requiredspell', 'RequiredReputationFaction', 'RequiredReputationRank', 'spellid_1', 'spellid_2', 'spellid_3', 'spellid_4', 'spellid_5', 'spelltrigger_1', 'spelltrigger_2', 'spelltrigger_3', 'spelltrigger_4', 'spelltrigger_5', 'spellcharges_1','spellcharges_2','spellcharges_3','spellcharges_4','spellcharges_5', 'spellppmRate_1','spellppmRate_2','spellppmRate_3','spellppmRate_4','spellppmRate_5', 'spellcooldown_1','spellcooldown_2','spellcooldown_3','spellcooldown_4','spellcooldown_5', 'spellcategorycooldown_1','spellcategorycooldown_2','spellcategorycooldown_3','spellcategorycooldown_4','spellcategorycooldown_5', 'description', 'PageText', 'BagFamily', 'RequiredSkillRank', 'itemset'),
 	// для iteminfo($level=0) - строчки списка
 	2 => array('name', 'quality', 'iconname', 'InventoryType', 'ItemLevel', 'RequiredLevel', 'class', 'subclass', 'stackable', 'BuyPrice', 'armor', 'dmg_type1', 'dmg_min1', 'dmg_max1', 'delay', 'dmg_type2', 'dmg_min2', 'dmg_max2', 'ContainerSlots'),
 	// для iteminfo($level=1)
-	3 => array('entry', 'name', 'quality', 'iconname', 'maxcount', 'bonding', 'startquest', 'Map', 'ContainerSlots', 'class', 'InventoryType', 'subclass', 'dmg_type1', 'dmg_min1', 'dmg_max1', 'delay', 'dmg_type2', 'dmg_min2', 'dmg_max2', 'armor', 'block', 'GemProperties', 'stat_type1', 'stat_type2', 'stat_type3', 'stat_type4', 'stat_type5', 'stat_type6', 'stat_type7', 'stat_type8', 'stat_type9', 'stat_type10', 'stat_value1', 'stat_value2', 'stat_value3', 'stat_value4', 'stat_value5', 'stat_value6', 'stat_value7', 'stat_value8', 'stat_value9', 'stat_value10', 'holy_res', 'fire_res', 'nature_res', 'frost_res', 'shadow_res', 'arcane_res', 'RandomProperty', 'RandomSuffix', 'socketColor_1', 'socketColor_2', 'socketColor_3', 'socketBonus', 'MaxDurability', 'AllowableClass', 'RequiredLevel', 'RequiredSkill', 'requiredspell', 'RequiredReputationFaction', 'RequiredReputationRank', 'spellid_1', 'spellid_2', 'spellid_3', 'spellid_4', 'spellid_5', 'spelltrigger_1', 'spelltrigger_2', 'spelltrigger_3', 'spelltrigger_4', 'spelltrigger_5', 'spellcharges_1','spellcharges_2','spellcharges_3','spellcharges_4','spellcharges_5', 'spellppmRate_1','spellppmRate_2','spellppmRate_3','spellppmRate_4','spellppmRate_5', 'spellcooldown_1','spellcooldown_2','spellcooldown_3','spellcooldown_4','spellcooldown_5', 'spellcategorycooldown_1','spellcategorycooldown_2','spellcategorycooldown_3','spellcategorycooldown_4','spellcategorycooldown_5', 'description', 'PageText', 'BagFamily', 'RequiredSkillRank', 'itemset', 'ItemLevel', 'stackable', 'BuyPrice', 'DisenchantID', 'SellPrice', 'RequiredDisenchantSkill', 'displayid')
+	3 => array('entry', 'flags', 'name', 'quality', 'iconname', 'maxcount', 'bonding', 'startquest', 'Map', 'ContainerSlots', 'class', 'InventoryType', 'subclass', 'dmg_type1', 'dmg_min1', 'dmg_max1', 'delay', 'dmg_type2', 'dmg_min2', 'dmg_max2', 'armor', 'block', 'GemProperties', 'stat_type1', 'stat_type2', 'stat_type3', 'stat_type4', 'stat_type5', 'stat_type6', 'stat_type7', 'stat_type8', 'stat_type9', 'stat_type10', 'stat_value1', 'stat_value2', 'stat_value3', 'stat_value4', 'stat_value5', 'stat_value6', 'stat_value7', 'stat_value8', 'stat_value9', 'stat_value10', 'holy_res', 'fire_res', 'nature_res', 'frost_res', 'shadow_res', 'arcane_res', 'RandomProperty', 'RandomSuffix', 'socketColor_1', 'socketColor_2', 'socketColor_3', 'socketBonus', 'MaxDurability', 'AllowableClass', 'AllowableRace', 'RequiredLevel', 'RequiredSkill', 'requiredspell', 'RequiredReputationFaction', 'RequiredReputationRank', 'spellid_1', 'spellid_2', 'spellid_3', 'spellid_4', 'spellid_5', 'spelltrigger_1', 'spelltrigger_2', 'spelltrigger_3', 'spelltrigger_4', 'spelltrigger_5', 'spellcharges_1','spellcharges_2','spellcharges_3','spellcharges_4','spellcharges_5', 'spellppmRate_1','spellppmRate_2','spellppmRate_3','spellppmRate_4','spellppmRate_5', 'spellcooldown_1','spellcooldown_2','spellcooldown_3','spellcooldown_4','spellcooldown_5', 'spellcategorycooldown_1','spellcategorycooldown_2','spellcategorycooldown_3','spellcategorycooldown_4','spellcategorycooldown_5', 'description', 'PageText', 'BagFamily', 'RequiredSkillRank', 'itemset', 'ItemLevel', 'stackable', 'BuyPrice', 'DisenchantID', 'SellPrice', 'RequiredDisenchantSkill', 'displayid')
 );
 
 $resz = array('holy_res', 'fire_res', 'nature_res', 'frost_res', 'shadow_res', 'arcane_res');
@@ -439,17 +439,23 @@ function render_item_tooltip(&$Row)
 
 	if($Row['socketBonus'])
 		$x .= '<span class="q0">'.LOCALE_SOCKET_BONUS.': '.socket_bonus($Row['socketBonus']).'</span><br />';
-	// Состояние
+	// Estado
 	if($Row['MaxDurability'])
 		$x .= LOCALE_DURABILITY.' '.$Row['MaxDurability'].' / '.$Row['MaxDurability'].'<br />';
-	// Требуемые классы
+	// Clases requeridas
 	if(classes($Row['AllowableClass']))
 		$x .= LOCALE_CLASSES.': '.classes($Row['AllowableClass']).'<br />';
+		
+	// Raza requerida		
+	if($Row['AllowableRace'] >= 0) {
+		$ra = races($Row['AllowableRace']);
+		$x .= LOCALE_RACES.': '.$ra['name'].'<br />';
+	}
 		
 		if($Row['ItemLevel']!=0)
 			$x .= LOCALE_ITEM_LEVEL.' '.$Row['ItemLevel'].'<br />';
 
-	// Требуемый уровень
+	// Nivel requerido
 	if($Row['RequiredLevel']>1)
 		$x .= LOCALE_REQUIRES_LEVEL.' '.$Row['RequiredLevel'].'<br />';
 
