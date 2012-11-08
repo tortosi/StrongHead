@@ -17,7 +17,7 @@
 <div class="rightpanel">
 <div style="float: left">Calidad: </div><small><a href="javascript:;" onclick="document.forms['fi'].elements['qu[]'].selectedIndex = -1; return false" onmousedown="return false">Limpiar</a></small>
 <div class="clear"></div>
-<select name="qu[]" size="8" multiple="multiple" class="rightselect" style="background-color: #181818">
+<select name="qu[]" size="5" multiple="multiple" class="rightselect" style="background-color: #181818">
 <option value="0" class="q0">Pobre</option>
 <option value="1" class="q1">Común</option>
 <option value="2" class="q2">poco Común</option>
@@ -32,7 +32,7 @@
 <div class="rightpanel2">
 <div style="float: left">Casilla: </div><small><a href="javascript:;" onclick="document.forms['fi'].elements['sl[]'].selectedIndex = -1; return false" onmousedown="return false">Limpiar</a></small>
 <div class="clear"></div>
-<select name="sl[]" size="7" multiple="multiple" class="rightselect">
+<select name="sl[]" size="5" multiple="multiple" class="rightselect">
 <option value="16">Espalda</option>
 <option value="18">Bolsa</option>
 <option value="5">Pecho</option>
@@ -64,12 +64,13 @@
 <table>
 <tr>
 <td>Nombre: </td>
-<td colspan="2">&nbsp;<input type="text" name="na" size="30" /></td>
+<td colspan="2">&nbsp;<input type="text" name="na" size="30" style="height: 10px;"/></td>
+
 <td></td>
 </tr><tr>
-<td class="padded">Nivel: </td><td class="padded">&nbsp;<input type="text" name="minle" maxlength="3" class="smalltextbox2" /> - <input type="text" name="maxle" maxlength="3" class="smalltextbox2" /></td>
-<td class="padded"><table><tr><td>Required level: </td><td>&nbsp;<input type="text" name="minrl" maxlength="2" class="smalltextbox" /> - <input type="text" name="maxrl" maxlength="2" class="smalltextbox" /></td></tr></table></td><td></td>
-</tr><tr><td class="padded">Usable por: </td><td class="padded">&nbsp;<select name="si" style="margin-right: 0.5em">
+<td class="padded">Nivel objeto: </td><td class="padded">&nbsp;<input type="text" name="minle" maxlength="3" style="height: 10px;" class="smalltextbox2" /> - <input type="text" name="maxle" maxlength="3" style="height: 10px;" class="smalltextbox2" /></td>
+<td class="padded"><table><tr><td>Nivel requerido: </td><td>&nbsp;<input type="text" name="minrl" maxlength="2" style="height: 10px;" class="smalltextbox" /> - <input type="text" name="maxrl" maxlength="2" style="height: 10px;" class="smalltextbox" /></td></tr></table></td><td></td>
+</tr><tr><td class="padded">Utilizable por: </td><td class="padded">&nbsp;<select name="si" style="margin-right: 1em">
 <option></option>
 <option value="1">Alianza</option>
 <option value="-1">Alianza solamente</option>
@@ -102,9 +103,9 @@
 <div class="clear"></div><div class="padded">Agrupar por:
     <input type="radio" name="gb" value="" id="gb-none" checked="checked" /><label for="gb-none">Ninguno</label>
     <input type="radio" name="gb" value="1" id="gb-slot" /><label for="gb-slot">Casilla</label>
-    <input type="radio" name="gb" value="2" id="gb-level" /><label for="gb-level">Nivel</label>
+    <input type="radio" name="gb" value="2" id="gb-level" /><label for="gb-level">Requerido</label>
     <input type="radio" name="gb" value="3" id="gb-source" /><label for="gb-source">Nombre</label>
-</div><div class="clear"></div><div class="beta"><input type="checkbox" name="eb" value="1" >Excluir resultados de Mists of Pandaria</div><div class="padded"></div><input type="submit" value="Aplicar filtro" />
+</div><div class="clear"></div><div class="padded"></div><input type="submit" value="Aplicar filtro" />
 
 <input type="hidden" name="upg" />
 
