@@ -187,7 +187,7 @@ switch($_SESSION['locale'])
 			'LOCALE_PROJECTILE_BULLET'	=>	'Bala',
 			'LOCALE_PROJECTILE_THROWN'	=>	'',
 			// damage
-			'LOCALE_DAMAGE_PRE'		=>	' ',
+			'LOCALE_DAMAGE_PRE'		=>	' Daño',
 			'LOCALE_DAMAGE_POST'	=>	' Daño',
 			'LOCALE_DAMAGE_HOLY'	=>	'Sagrado',
 			'LOCALE_DAMAGE_FIRE'	=>	'Fuego',
@@ -244,6 +244,7 @@ switch($_SESSION['locale'])
 			'LOCALE_SOCKET_BONUS'	=>	'Bono de ranura',
 			
 			// misc
+			'LOCALE_FAP'   	     =>   'Poder de taque feral',
 			'LOCALE_SPEED'			=>	'Velocidad',
 			'LOCALE_UNIQUE'			=>	'Único',
 			'LOCALE_START_QUEST'	=>	'Este objeto inicia una misión',

@@ -34,7 +34,7 @@ function inv_dmg($min, $max, $delay, $type)
 {
 	global $dmg_typez;
 	if($delay!=0)
-		return '<table width="100%"><tr><td>'.$min.' - '.$max.LOCALE_DAMAGE_PRE.$dmg_typez[$type].LOCALE_DAMAGE_POST.'</td><th>'.LOCALE_SPEED.' '.number_format($delay,2).'</th></tr></table>';
+		return '<table width="100%"><tr><td>'.$min.' - '.$max.' '.($dmg_typez[$type] ? $dmg_typez[$type].LOCALE_DAMAGE_POST : LOCALE_DAMAGE_PRE).'</td><th>'.LOCALE_SPEED.' '.number_format($delay,2).'</th></tr></table>';
 	else
 		return '+'.$min.' - '.$max.LOCALE_DAMAGE_PRE.$dmg_typez[$type].LOCALE_DAMAGE_POST.'<br />';
 }
@@ -380,25 +380,32 @@ function render_item_tooltip(&$Row)
 	}
 
 	// Урон
-	$dps=0;
-	for($j=1;$j<=2;$j++)
+	$dps = 0;
+	for ($j = 1; $j <= 2; $j++)
 	{
 		$d_type = $Row['dmg_type'.$j];
 		$d_min = $Row['dmg_min'.$j];
 		$d_max = $Row['dmg_max'.$j];
-		if(($d_max>0) and ($Row['class']!=6))
+		if (($d_max > 0) and ($Row['class'] != 6))
 		{
 			$delay = $Row['delay'] / 1000;
-			if($delay>0) {$dps = $dps+round(($d_max+$d_min)/(2*$delay),1);}
-			if($j>1) {$delay=0;}
+			if ($delay > 0)
+				$dps = $dps+round(($d_max+$d_min)/(2*$delay),1);
+			if ($j > 1)
+				$delay = 0;
 			$x .= inv_dmg($d_min, $d_max, $delay, $d_type);
-		} elseif(($d_max>0) and ($Row['class']==6))
+		}
+		elseif (($d_max>0) and ($Row['class'] == 6))
 		{
-			$x .= LOCALE_DPS_ADDS.' '.number_format((($d_max+$d_min)/2),1).' '.LOCALE_DPS2.'<br />';
+			$x .= LOCALE_DPS_ADDS.' '.number_format((($d_max+$d_min) / 2), 1).' '.LOCALE_DPS2.'<br />';
 		}
 	}
-	if($dps>0)
+	if($dps > 0)
+	{
 		$x .= '('.number_format($dps,1).' '.LOCALE_DPS.')<br />';
+		if ($dps > 54.8 && in_array($Row['subclass'], array(5, 6, 10)))
+			$x .= '<span class="q5">('.(int)(($dps - 54.8) * 14).' '.LOCALE_FAP.')</span><br />';
+	}
 	// Кол-во брони
 	if($Row['armor'])
 		$x .= $Row['armor'].' '.LOCALE_ARMOR.'<br />';
